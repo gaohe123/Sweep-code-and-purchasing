@@ -1,0 +1,36 @@
+<view class="container">
+    <view class="avatar">
+        <my-swiper avatar="{{avatar}}"></my-swiper>
+    </view>
+    <view class="qrcode-button">
+        <my-button type="circle" bindGetQrcode="getQrcode"></my-button>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--        <view class="Button" bindtap="handleQrcode">-->
+        <!--            <image src="../../assets/images/qrcode.png"></image>-->
+        <!--            <text>请扫描商品条形码</text>-->
+        <!--        </view>-->

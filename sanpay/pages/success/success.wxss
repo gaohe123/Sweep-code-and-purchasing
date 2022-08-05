@@ -1,0 +1,82 @@
+/* pages/success/success.wxss */
+.success-container{
+    height: 100%;
+}
+.success-container .success-pay{
+    height: 460rpx;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+.success-pay .pay{
+    display: flex;
+    margin-top :120rpx;
+    flex-direction: column;
+    align-items: center;
+}
+.success-pay .pay image{
+    height: 80rpx;
+    width: 80rpx;
+}
+.success-pay .pay text{
+    color : #333;
+    margin-top:8rpx;
+}
+.success-pay .back-button{
+    background-color :#f60;
+    color : #fff;
+    padding:15rpx 40rpx;
+    border-radius : 10rpx;
+    margin-top : 40rpx;
+}
+.success-like{
+
+}
+.success-like .like-title{
+    width : 100%;
+    font-size : 32rpx;
+    color : #444;
+    text-align : center;
+    display : inline-block;
+    padding:20rpx 0;
+    border-bottom:2rpx solid #ccc;
+    background-color :#fff;
+}
+.success-like .list-column{
+    display : flex;
+    justify-content:center;
+    padding:20rpx 0;
+    margin-bottom: 20rpx;
+    background-color :#fff;
+}
+.success-like .list-column-item{
+    flex-basis: 95%;
+    display : flex;
+    flex-direction : column;
+    position : relative;
+}
+.success-like .list-column-item image{
+    width: 100%;
+}
+.success-like .list-column-item .title{
+    color : #666;
+    padding: 5rpx 0;
+}
+.success-like .list-column-item .price{
+    font-size : 40rpx;
+    color : #f60;
+}
+.success-like .list-column-item .count{
+    color : #666;
+    margin-top : 8rpx;
+    font-size : 24rpx;
+}
+.success-like .list-column-item .button{
+    position : absolute;
+    right : 0;
+    bottom :0;
+    background-color : #f60;
+    padding:15rpx 25rpx;
+    color : #fff;
+    border-radius : 10rpx;
+}

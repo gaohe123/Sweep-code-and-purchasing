@@ -1,0 +1,24 @@
+/* components/EmptyCartPage/index.wxss */
+.not-carts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.not-carts text{
+    color : #999;
+    margin-top:140rpx;
+}
+.not-carts image{
+    width : 256rpx;
+    height : 256rpx;
+    margin : 60rpx 0;
+}
+/*.not-carts .cart-button{*/
+/*    width : 60%;*/
+/*    height : 80rpx;*/
+/*    line-height: 80rpx;*/
+/*    background-color : #ffba00;*/
+/*    text-align : center;*/
+/*    border-radius : 10rpx;*/
+/*    margin : 40rpx 0;*/
+/*}*/

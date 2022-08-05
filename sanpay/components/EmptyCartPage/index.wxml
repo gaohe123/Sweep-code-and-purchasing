@@ -1,0 +1,5 @@
+<view class="not-carts">
+    <text>购物车是空的哦</text>
+    <image src="../../assets/images/cart.png"></image>
+    <my-button type="rectangle" bindGetQrcode="getQrcode"></my-button>
+</view>

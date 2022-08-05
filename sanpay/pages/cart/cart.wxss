@@ -1,0 +1,84 @@
+/* pages/cart/cart.wxss */
+.cart-container{
+    height : 100%;
+}
+.cart-container .main{
+    padding-bottom: 188rpx;
+}
+.cart-container .list{
+    border-bottom: 1px solid #ccc;
+}
+.cart-container .list-item{
+    padding:20rpx;
+}
+.cart-container .list-item .title{
+    font-size : 30rpx;
+    color : #000;
+}
+.cart-container .list-item .price{
+    font-size : 26rpx;
+    color : #000;
+    margin-top : 8rpx;
+}
+.cart-container .list-item .computed{
+    display : flex;
+    justify-content: flex-end;
+}
+.cart-container .list-item .button{
+    width:70rpx;
+    height:70rpx;
+    border-radius : 50%;
+    border:2rpx solid #FFA72B;
+    text-align : center;
+    line-height : 70rpx;
+}
+.cart-container .list-item .decrement{
+    color : #FFA72B;
+}
+.cart-container .list-item .count{
+    width : 130rpx;
+    height : 70rpx;
+    text-align : center;
+    line-height : 70rpx;
+    margin : 0 20rpx;
+    border : 2rpx solid #FFA72B;
+    border-radius : 40rpx;
+}
+.cart-container .list-item .increment{
+    background-color : #FFA72B;
+    color : #fff;
+}
+.cart-container .footer{
+    position : fixed;
+    bottom : 0;
+    left : 0;
+    width : 100%;
+}
+.cart-container .total-price{
+    background-color : #fff;
+    border-top : 1px solid #ddd;
+    height : 88rpx;
+    line-height: 88rpx;
+    padding-left:20rpx;
+}
+.cart-container .total-price text{
+    color : #f60;
+}
+.cart-container .button-group{
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 40rpx;
+    display : flex;
+    justify-content : space-between;
+}
+.cart-container .button-group .button{
+    width : 50%;
+    text-align : center;
+    color : #fff;
+}
+.button-group .add{
+    background-color : #FFA72B;
+}
+.button-group .computed{
+    background-color : red;
+}

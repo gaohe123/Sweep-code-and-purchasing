@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-swiper" : "../../components/Swiper/index",
+    "my-button" : "../../components/Button/index"
+  }
+}

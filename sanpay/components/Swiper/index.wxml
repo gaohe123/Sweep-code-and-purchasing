@@ -1,0 +1,5 @@
+<swiper indicator-dots circular>
+    <swiper-item wx:for="{{avatar}}" wx:key="index">
+        <image src="{{item.url}}"></image>
+    </swiper-item>
+</swiper>

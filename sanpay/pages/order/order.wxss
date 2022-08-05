@@ -1,0 +1,68 @@
+/* pages/order/order.wxss */
+.order-container{
+    height : 100%;
+}
+.order-container .main{
+    margin-bottom: 102rpx;
+}
+.main .product{
+    background-color : #fff;
+    padding : 20rpx;
+}
+.main .product-list{
+    border-bottom: 1px solid #ccc;
+    padding:20rpx 0;
+}
+.main .product-list .title{
+    display : flex;
+    justify-content:space-between;
+}
+.main .product-list .title text:nth-child(2){
+    color: #f60;
+}
+.main .product-list .count{
+    display : flex;
+    margin-top :20rpx;
+    justify-content:  flex-end;
+}
+.main .product-button{
+    height : 80rpx;
+    line-height : 80rpx;
+    text-align : center;
+}
+.order-container .footer{
+    position : fixed;
+    bottom : 0;
+    left : 0;
+    width : 100%;
+    background-color : burlywood;
+    display : flex;
+    height : 100rpx;
+    line-height: 100rpx;
+    border-top: 2rpx solid #ddd;
+}
+
+.order-container .footer .actual-payment{
+    flex : 2;
+    background : #fff;
+    padding: 0 20rpx;
+    color : #333;
+}
+.order-container .footer .actual-payment text{
+    color : #f60;
+}
+.order-container .footer .confirm-payment{
+    flex : 1;
+    text-align : center;
+    color : #fff;
+    background : #FFA72B;
+}
+.main .item{
+    height : 120rpx;
+    background : #fff;
+    margin-top:20rpx;
+    display : flex;
+    justify-content:space-between;
+    align-items : center;
+    padding: 0 20rpx;
+}

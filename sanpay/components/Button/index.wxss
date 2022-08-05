@@ -1,0 +1,39 @@
+/* components/Button/index.wxss */
+.button{
+    width : 300rpx;
+    height : 300rpx;
+    background : #F5BA47;
+    border-radius: 50%;
+    border:20rpx solid #FCE9BC;
+    display: flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    margin: 80rpx auto 0;
+}
+.button image{
+    width : 158rpx;
+    height : 128rpx;
+}
+.button text{
+    color : #fff;
+    display : inline-block;
+    width : 190rpx;
+    text-align : center;
+    margin-top : 10rpx;
+}
+.cart-button{
+    width : 300rpx;
+    height : 80rpx;
+    line-height: 80rpx;
+    background-color : #ffba00;
+    text-align : center;
+    border-radius : 10rpx;
+    margin : 40rpx 0;
+}
+.add{
+    background-color : #FFA72B;
+    text-align : center;
+    color : #fff;
+    width : 250%;
+}
